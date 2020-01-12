@@ -1,0 +1,161 @@
+*{
+  margin: 0px;
+  /*background-color: #CCFFCC;*/
+}
+html{
+height:100%;
+width:100%;
+}
+body{
+height:100%;
+width:100%;
+}
+.top{
+  background-color: #006666;
+  padding: auto;
+  height:15%;
+  width: 100%;
+  border-bottom: dotted;
+  border-color: #CCFFCC;
+  border-width: thick;
+  border-spacing: 40px;
+}
+
+.title{
+  background-color: #006666;
+  text-align: center;
+  color: white;
+  width:25%;
+  margin:auto;
+  font-size: 60px;
+  padding-top:40px;
+  padding-bottom:5px;
+  border-bottom: dashed;
+  border-width: thick;
+  border-color: #CCFFCC;
+  font-family: serif;
+
+}
+
+.main{
+  text-align: center;
+  width:100%;
+  height: 100%;
+  box-sizing: border-box;
+  border-color: #006666;
+}
+
+.nav{
+  float: left;
+  background-color: #006666;
+  border-top: dotted;
+  border-right: dotted;
+  border-color: #CCFFCC;
+  font-size: 18px;
+  height: 100%;
+  width:15%;
+  text-align: left;
+}
+.about {
+  margin:auto;
+  /*padding-left: 50px;*/
+  background-color: #006666;
+  margin-top: 15%;
+  margin-left: 3%;
+
+}
+.home {
+  /*text-align: center;*/
+  margin: auto;
+  background-color: #006666;
+  margin-top: 15%;
+  margin-left: 3%;
+  color:white;
+}
+.services{
+  margin: auto;
+  background-color: #006666;
+  margin-top: 15%;
+  margin-left: 3%;
+}
+.moreinfo {
+  margin:auto;
+  background-color: #006666;
+  margin-top: 15%;
+  margin-left: 3%;
+}
+a{
+  color:white;
+  text-decoration: none;
+  font-family: monospace;
+}
+h2{
+  color: white;
+  text-decoration: none;
+  font-family: monospace;
+}
+button{
+  text-decoration: none;
+  font-family: monospace;
+}
+h2:hover{
+  color: #CCFFCC;
+}
+a:hover{
+  color: #CCFFCC;
+}
+
+.content{
+  width: 85%;
+  height: 100%;
+  margin-left: 15.2%;
+  background-color: #CCFFCC;
+  border-top: dashed;
+  border-left: dashed;
+  border-color: #006666;
+}
+.pclass{
+  display: block;
+}
+.drop{
+  display: inline-block;
+  position: relative;
+  margin: 0px;
+}
+
+.dropbutton {
+  background-color: #006666;
+  margin-top: 15%;
+  border:none;
+  font-size: 18px;
+  font:inherit;
+  text-align: left;
+}
+
+.dropcontent{
+  display: none;
+  position: absolute;
+  background-color: #006666;
+  width:100%;
+  margin-left: 10%;
+}
+
+.dropcontent a{
+  display:block;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: 15%;
+  font-size: 16px;
+  color: white;
+}
+.dropcontent a:hover{
+  color:#CCFFCC;
+}
+
+.drop:hover .dropcontent {
+  display: block;
+}
+
+.contentpara{
+  margin: 20px;
+}

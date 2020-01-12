@@ -1,0 +1,22 @@
+Briefly describe one way how data travels on the internet.
+  Data is put into a "packet" and is then sent through the maze of connections
+  that is the internet. The packet will usually take the path of least resistance
+  or least congestion to efficiently get the data where it needs to go. Large
+  collections of data can be sent in multiple packets.
+
+What is the relationship between an IP address and the DNS?
+  IP addresses are the individual addresses of people on the internet, or more
+  specifically the addresses of their computers or however they are accessing
+  the internet. DNS stands for Domain Name Services and is what the computer
+  uses to find the IP address of the website you are looking for.
+
+What is a cookie?
+  Cookies are text strings that websites send to your browser, and are then stored
+  in a text file by the web browser. When the browser goes back to the website,
+  the cookie is sent back to the website.
+
+List the the three basic parts of a URL.
+  protocol (http://)
+  Domain (example.com) and Subdomain (www.)
+  paths (/menu/sesamechicken) - what gets the user around the website through the
+    directories.

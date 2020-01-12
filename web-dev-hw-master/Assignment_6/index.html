@@ -1,0 +1,87 @@
+<html>
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="Author" content="Evan Wilken">
+    <meta name="Description" content="Evan's Assignment 6">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+    table, th, td {
+      border: 1px solid black;
+    }
+    </style>
+  </head>
+  <body>
+    <h1>University of Alaska Fairbanks</h1>
+    <address class="">
+      Located at:<br>
+      1731 South Chandalar Drive<br>
+      Fairbanks, AK 99775<br><br>
+      Call us at: <br>
+      907-474-7034<br><br>
+      Or send an e-mail to:<br>
+      <a href="malto:uaf-admissions@alaska.edu">uaf-admissions@alaska.edu</a>
+    </address>
+    <br>
+    <br>
+
+  <table>
+    <tr>
+      <th></th>
+      <th scope="col">Admissions</th>
+      <th scope="col">Athletics</th>
+      <th scope="col">Student Life</th>
+      <th scope="col">Research</th>
+    </tr>
+    <tr>
+      <th scope="row">Phone Numbers:</th>
+      <td>907-474-7500</td>
+      <td>(907) 474-5174</td>
+      <td>907-474-7097</td>
+      <td>907-474-6000</td>
+    </tr>
+    <tr>
+      <th scope="row">E-mail:</th>
+      <td>uaf-admissions@alaska.edu</td>
+      <td>athletics@alaska.edu</td>
+      <td>studentlife@alaska.edu</td>
+      <td>research@alaska.edu</td>
+    </tr>
+  </table>
+<br>
+<br>
+  <form
+  action="https://github.com/EvanWilken/web-dev-hw/tree/master/Assignment_6/Experience.php"
+  method="get"
+  id="ExperienceQ"
+  class="basic-forms"
+  >
+  <p>
+    Please Describe your experience in one word:
+    <input type="text" name="experience" id="experience_input" placeholder="Amazing" />
+  </p>
+
+  <p>Do you think UAF is doing well as a school?</p>
+  <input type="radio" name="level" value="yes" /> Yes
+  <br />
+  <input type="radio" name="level" value="no" /> No
+
+  <p>
+  Feel free to leave a comment below.
+  <textarea name="comments" id="comments-textarea">Write a short comment...</textarea>
+  </p>
+
+  <input type="submit" name="Submit" value="Let us see what you think!" />
+  <br>
+  <p>or use this cool button</p>
+
+  <input type="image" src="./images/submit.png" alt="submit button image" width="80" height="80" />
+
+  </form>
+
+
+
+  </body>
+
+</html>

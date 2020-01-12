@@ -1,0 +1,11 @@
+How is the web different than the internet?
+  The internet is a collection of connected networks around the world, and the web is the informational system that you can access and use through the internet. The internet connects participants, and the web connects information that can be searched on the internet.
+
+Briefly describe how the internet works.
+  The internet consists of many singular, independent networks. Those networks are connected to eachother to create a decetralized system of connections. Since all these independent networks are connected, information can be passed through the connections from one side of the internet and get to wherever and whoever it needs to reach.
+
+What is a directory, and what is its relationship to files?
+  A directory is the location that files such as images, audio or video, or text documents are located in. A file can be nested in multiple folders, and the directory is the path of folders where the file is located.
+
+Why is using a VCS beneficial?
+  Using a version control system like GitHub allows users to see the changes they have made and to revert back to previous versions if need be. It can also be helpful while working on projects with multiple users to see the changes each individual makes.

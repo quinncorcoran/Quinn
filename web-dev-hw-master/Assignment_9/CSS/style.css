@@ -1,0 +1,59 @@
+
+/* CSS style document */
+  * {
+    font-family: Arial;
+  }
+
+
+
+.main-container {
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: limegreen;
+    padding: 10px;
+    background: #BB01FE;
+}
+
+h1 {
+    text-align: center;
+    border-style: solid;
+    font-weight: bolder;
+    border-width: 2px;
+    border-color: #FEED01;
+    background: #FE7701;
+}
+
+h2 {
+    font-size: 50px;
+    text-align: center;
+    font-weight: bolder;
+    padding: 5px;
+}
+
+p {
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #01C3FE;
+    background: #0112FE;
+}
+
+.pic {
+  width: 300px;
+  height: 300px;
+}
+
+.opacity50 {
+  opacity: .5;
+}
+
+  .secondary-container {
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: limegreen;
+    padding: 5px;
+    background: #3CFE01;
+
+  }

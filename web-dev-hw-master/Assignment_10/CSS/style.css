@@ -1,0 +1,37 @@
+
+
+.main-container
+{
+  text-align: center;
+  border-style: solid;
+  border-width: 2px;
+  border-color: gray;
+  padding: 5px;
+  background: #CBCEFE;
+  font-family: times, arial;
+  font-weight: bolder;
+}
+.secondary-container p:first-child::first-letter {
+   font-family: 'Kumar One Outline', times;
+   font-size: 2em;
+   font-weight: bold;
+}
+
+.secondary-container {
+  text-align: center;
+  border-style: dashed;
+  border-width: 1px;
+  border-color: gray;
+  padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background: #F0F0F9;
+  font-family: arial, times;
+  font-size: 14px;
+
+}
+
+a:hover {
+   color: #0112FE;
+   font-style: italic;
+ }
